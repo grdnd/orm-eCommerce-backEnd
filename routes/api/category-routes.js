@@ -1,12 +1,11 @@
 // import express router
 const router = require("express").Router();
 
-const res = require("express/lib/response");
 // import category/product models
 const { Category, Product } = require("../../models");
 
-// `/api/categories`
 // GET all categories
+// `/api/categories`
 router.get("/", (req, res) => {
   // find all categories
   Category.findAll({
@@ -17,8 +16,8 @@ router.get("/", (req, res) => {
     .catch((err) => res.status(500).json(err));
 });
 
-// `/api/categories/:id
 // GET category by id
+// `/api/categories/:id
 router.get("/:id", (req, res) => {
   // find one category by its `id` value
   Category.findOne({
@@ -32,8 +31,8 @@ router.get("/:id", (req, res) => {
     .catch((err) => res.status(400).json(err));
 });
 
-// `/api/categories/`
 // POST new category
+// `/api/categories/`
 router.post("/", (req, res) => {
   // create a new category
   Category.create(req.body)
@@ -41,8 +40,8 @@ router.post("/", (req, res) => {
     .catch((err) => res.status(400).json(err));
 });
 
-// `/api/categories/:id`
 // UPDATE category by id
+// `/api/categories/:id`
 router.put("/:id", (req, res) => {
   // update a category by its `id` value
   Category.update(req.body, {
@@ -54,8 +53,8 @@ router.put("/:id", (req, res) => {
     .catch((err) => res.status(400).json(err));
 });
 
-// `/api/categories/:id`
 // DELETE category by id
+// `/api/categories/:id`
 router.delete("/:id", (req, res) => {
   // delete a category by its `id` value
   Category.destroy({
