@@ -1,17 +1,17 @@
 {
-  "name": "module-13-challenge-orm",
-  "version": "1.0.0",
-  "description": "",
+  "name": "orm-e-commerce-back-end",
+  "version": "2.0.0",
+  "description": "E-Commerce Back End project built with Express.js API and MySQL.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start": "npx nodemon",
     "watch": "nodemon server.js",
     "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "https://github.com/grdnd/orm-eCommerce-backEnd"
   },
   "keywords": [],
   "author": "",
