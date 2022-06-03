@@ -18,6 +18,10 @@ Once we have a database running, we can now proceed to seed our data using `npm 
 
 ## Usage
 
+[Project Startup Demonstration](https://www.youtube.com/watch?v=GXfTHvLDhys)
+
+[Database Routing Demonstration](https://www.youtube.com/watch?v=06X-t9ZkKa0)
+
 When all our product data is done seeding, you're done! You may now run `npm start` to access the live server through sequelize.
 
 Open up the app in insomnia and now you're able to create, read, update, and delete product, tags, and category data!
@@ -26,7 +30,7 @@ Open up the app in insomnia and now you're able to create, read, update, and del
 
 If you would like to contribute to this project, please feel free to access my repository at:
 
-:open_file_folder:: [ORM E-Commerce Back End](github.com/grdnd/orm-eCommerce-backEnd)
+:open_file_folder:: [ORM E-Commerce Back End](https://github.com/grdnd/orm-eCommerce-backEnd)
 
 ### Questions
 
