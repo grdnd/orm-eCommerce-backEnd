@@ -18,7 +18,11 @@ Once we have a database running, we can now proceed to seed our data using `npm 
 
 ## Usage
 
+![startup-img](https://user-images.githubusercontent.com/93315369/171784162-e1f301cc-d681-47a2-9a6f-29020dc10ef0.jpg)
+
 [Project Startup Demonstration](https://www.youtube.com/watch?v=GXfTHvLDhys)
+
+![routes-img](https://user-images.githubusercontent.com/93315369/171784151-06c0bcb2-a2e6-46ca-8d4e-64907410a79a.jpg)
 
 [Database Routing Demonstration](https://www.youtube.com/watch?v=06X-t9ZkKa0)
 
